@@ -42,9 +42,9 @@ const CONTRAST = 1.6, BRIGHT = 25, NOISE = 20;
 const LOW_W = 56;         // 배경 해상도 (작을수록 더 뭉개짐)
 const DETAIL_LO = 2, DETAIL_HI = 12; // 디테일 없는 넓은/먼 면 → 검정 (값 키우면 검정 늘어남)
 const MIN_AREA = 25;      // 이보다 작은 감지 덩어리는 무시 (셀 개수)
-const MAX_BLOBS = 2;      // 가장 큰 덩어리 N개에만 효과 적용
+const MAX_BLOBS = 1;      // 가장 큰 덩어리 N개에만 효과 적용
 const GLOW = 0.35;        // 노이즈 뒤 흰색 글로우 세기 (0이면 끔)
-const GAMMA = 1.4;        // 클수록 중간톤이 어두워짐 (엑스레이 느낌)
+const GAMMA = 3;        // 클수록 중간톤이 어두워짐 (엑스레이 느낌)
 const OBJ_EVERY = 2;      // 사물 감지는 N프레임마다 (성능)
 const PERSON_CLASS = 15;  // deeplab에서 사람 클래스
 /* ================== */
